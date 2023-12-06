@@ -19,8 +19,6 @@ create table if not exists formulario (
   q6 int not null,
   q7 int not null,
   q8 int not null,
-  q9 int not null,
-  q10 int not null,
   id_usuario int not null,
   foreign key(id_usuario) references usuario(id_usuario)
   ); 
